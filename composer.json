@@ -2,20 +2,14 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": [
-        "laravel",
-        "framework"
-    ],
+    "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.3",
+        "php": "^8.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "ext-sqlite3": "",
-        "ext-pdo_sqlite": "",
-        "guzzlehttp/guzzle": "^7.0",
-        "fruitcake/laravel-cors": "^2.1",
-        "maatwebsite/excel": "^3.1"
+        "ext-sqlite3": "",         // Ensures the SQLite3 extension is installed
+        "ext-pdo_sqlite": ""      // Ensures the PDO SQLite extension is installed
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -24,11 +18,7 @@
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.1",
-        "phpunit/phpunit": "^11.0.1",
-        "barryvdh/laravel-debugbar": "^3.6",
-        "barryvdh/laravel-ide-helper": "^2.10",
-        "squizlabs/php_codesniffer": "^3.6",
-        "spatie/laravel-permission": "^5.0"
+        "phpunit/phpunit": "^11.0.1"
     },
     "autoload": {
         "psr-4": {
